@@ -4,7 +4,7 @@
       class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
     >
       <div class="logoContainer row justify-content-center ">
-        <img class="logo " src="./../../assets/LOGO.png" />
+        <img class="logo img-circle " src="./../../assets/LOGO.png" />
       </div>
       <div class="container">
         <a
@@ -77,11 +77,10 @@ header {
 .logo {
   height: 11vh;
 }
+
 .container {
-  margin-left: 1em;
-  margin-right: none;
 }
 .logoContainer {
-  width: 20%;
+  width: 13%;
 }
 </style>
