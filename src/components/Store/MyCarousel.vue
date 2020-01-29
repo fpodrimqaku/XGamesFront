@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    dancing int the rain
+    <img src="./../../assets/vuelogo.png" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   name: "MyCarousel",
   data() {
     return {
-      msg: "Welcome tdfgsgsdfhgsfdhdfshsefghp"
+      msg: "The carousel part"
     };
   }
 };
