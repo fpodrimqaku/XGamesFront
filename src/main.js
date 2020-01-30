@@ -6,9 +6,15 @@ import router from "./router";
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
+import Vuetify from "vuetify";
+import "vuetify/dist/vuetify.min.css";
 
 // Install BootstrapVue
 Vue.use(BootstrapVue);
+//install vuetify
+Vue.use(Vuetify);
+const opts = {};
+export default new Vuetify(opts);
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin);
 

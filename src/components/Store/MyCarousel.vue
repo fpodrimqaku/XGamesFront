@@ -1,11 +1,16 @@
 <template>
-  <carousel perPage="1" autoplay="true" paginationEnabled="false">
+  <carousel
+    id="storeFrontCarousel"
+    :perPage="1"
+    :autoplay="true"
+    :paginationEnabled="false"
+  >
     <slide class="cSlide">
       <img
         class="sliderImage"
         src="https://i.pinimg.com/originals/ff/c3/8d/ffc38d9bce22d7a9eaa07b890e3af1a2.jpg"
       />
-      <span class="SlideText bottom-left">Outsmart your opponent</span>
+      <span class="SlideText bottom-left">Outsmart your opponent </span>
     </slide>
     <slide class="cSlide">
       <img
@@ -35,7 +40,7 @@
 
 <script>
 import { Carousel, Slide } from "vue-carousel";
-Carousel.autoplay = true;
+
 export default {
   name: "MyCarousel",
   data() {
@@ -82,5 +87,8 @@ span.SlideText {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+.storeFrontCarousel {
+  margin-top: 0;
 }
 </style>
