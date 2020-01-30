@@ -72,6 +72,7 @@ export default {
 <style scoped>
 header {
   height: fit-content;
+  margin-bottom: none;
 }
 
 .logo {
